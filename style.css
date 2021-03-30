@@ -1,0 +1,34 @@
+#thefile {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+}
+
+#canvas {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+audio {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  width: calc(100% - 20px);
+}
+
+.choose::-webkit-file-upload-button {
+  color: white;
+  display: inline-block;
+  background: #1cb6e0;
+  border: none;
+  padding: 7px 15px;
+  font-weight: 700;
+  border-radius: 3px;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 10pt;
+}
